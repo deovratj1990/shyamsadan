@@ -1,0 +1,6 @@
+name: Gallery
+description: 'Manages photo galleries'
+package: custom
+
+type: module
+core: 8.x

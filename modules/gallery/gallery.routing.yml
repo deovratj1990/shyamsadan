@@ -1,0 +1,23 @@
+gallery.add:
+  path: '/admin/gallery/add'
+  defaults:
+    _entity_form: 'gallery.default'
+    _title: 'Add gallery'
+  requirements:
+    _permission: 'access administration pages'
+
+gallery.edit:
+  path: '/admin/gallery/edit'
+  defaults:
+    _entity_form: 'gallery.default'
+    _title: 'Edit gallery'
+  requirements:
+    _permission: 'access administration pages'
+
+gallery.edit:
+  path: '/admin/gallery/delete'
+  defaults:
+    _entity_form: 'gallery.delete'
+    _title: 'Delete gallery'
+  requirements:
+    _permission: 'access administration pages'
